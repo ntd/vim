@@ -1,0 +1,1 @@
+set dir=~/tmp/vim
