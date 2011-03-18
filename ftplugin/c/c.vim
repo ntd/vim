@@ -21,10 +21,7 @@ if has("cscope")
   nmap <Space>l :scs find d <C-R>=expand("<cword>")<CR><CR>
   nmap <Space>h :scs find c <C-R>=expand("<cword>")<CR><CR>
 
-  au BufEnter adg-* call AdgFile()
-
-  fun! AdgFile()
-      cscope add /home/nicola/sandbox/cscopes/adg.cscope
-      cscope add /home/nicola/sandbox/cscopes/cpml.cscope
-  endfun
+  au BufEnter */adg/*	cscope add /home/nicola/sandbox/cscopes/cpml.cscope
+  au BufEnter */adg-*	cscope add /home/nicola/sandbox/cscopes/adg.cscope
+  au BufEnter adg-gtk-*	cscope add /home/nicola/sandbox/cscopes/adg-gtk.cscope
 endif
