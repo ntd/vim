@@ -9,4 +9,5 @@ augroup filetypedetect
   au! BufRead,BufNewFile *.ledger			setfiletype ledger
   au! BufRead,BufNewFile *.ss				setfiletype xhtml
   au! BufRead,BufNewFile */.claws-mail/*		setfiletype mail
+  au! BufRead,BufNewFile *.rs				setfiletype remoshell
 augroup END
