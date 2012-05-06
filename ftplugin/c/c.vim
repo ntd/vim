@@ -8,6 +8,8 @@ set list
 set listchars=tab:↔­,trail:·,precedes:⇐,extends:⇒
 set foldmethod=syntax
 set foldnestmax=1
+set comments=sr:/*,mb:*,ex:*/,://
+
 nmap <silent> l :if foldclosed(".")>0\|exe "normal! za"\|else\|exe "normal! l"\|endif<CR>
 
 let b:did_ftplugin=1

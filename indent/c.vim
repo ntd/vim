@@ -11,7 +11,11 @@ if exists("b:did_indent")
 endif
 let b:did_indent = 1
 
+setlocal textwidth=78
 setlocal cindent
-setlocal sw=4
-setlocal ts=8
-set cinoptions=:0,l1,t0,g0,(0
+setlocal nosmartindent
+setlocal shiftwidth=4
+setlocal tabstop=8
+setlocal softtabstop=4
+setlocal expandtab
+setlocal cinoptions=p0,t0,+4,(0,u4,U1,:0

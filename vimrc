@@ -22,8 +22,10 @@ let g:proj_flags="mstvcg"	" 'Project' flags
 set helplang=en
 set mouse=a
 
-set guifont=Terminus\ 14
+set guifont=Terminus\ 15
 set guioptions=aegit
+set listchars=tab:↔­,trail:·,precedes:⇐,extends:⇒
+set list
 set showmode
 set showcmd
 set showmatch
