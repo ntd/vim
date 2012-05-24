@@ -2,28 +2,31 @@ if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
 
-set dir=~/tmp/vim
-colorscheme xoria256
-
-" Encoding default to utf-8
-let &termencoding=&encoding
-set encoding=utf-8
+set dir=~/tmp/vim		" Directory for temporary files
+			
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()		" Enable pathogen 'package manager'
+Helptags			" I like to get crazy...
 
 if has("gui_running")
     set cursorline		" Highlight the current line
+    set guifont=Terminus\ 15	" Terminus font must be installed
+    set guioptions=aegit
 else
     set t_ti= t_te=		" Avoid restoring screen at end of session
 endif
 
-set notimeout			" don't timeout on mappings
-set ttimeout			" do timeout on terminal key codes
-set timeoutlen=100		" timeout after 100 msec
+set notimeout			" Don't timeout on mappings
+set ttimeout			" Do timeout on terminal key codes
+set timeoutlen=100		" Timeout after 100 msec
 let g:proj_flags="mstvcg"	" 'Project' flags
 set helplang=en
 set mouse=a
 
-set guifont=Terminus\ 15
-set guioptions=aegit
+colorscheme xoria256
+let &termencoding=&encoding
+set encoding=utf-8
+
 set listchars=tab:↔­,trail:·,precedes:⇐,extends:⇒
 set list
 set showmode
