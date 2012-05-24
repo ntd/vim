@@ -1,7 +1,10 @@
 " Vim filetype plugin
-" Language:     TeX
+" Language:     PHP
 " Maintainer:   Nicola Fontana <ntd at entidi.it>
 " Last Change:  06 May 2009
 " Version:      1.0
 
-set textwidth=72
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
