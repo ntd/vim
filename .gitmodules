@@ -16,3 +16,9 @@
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
 	url = https://github.com/cypok/vim-ledger.git
+[submodule "bundle/gtk-vim-syntax"]
+	path = bundle/gtk-vim-syntax
+	url = https://github.com/vim-scripts/gtk-vim-syntax.git
+[submodule "bundle/clibs.vim"]
+	path = bundle/clibs.vim
+	url = https://github.com/vim-scripts/clibs.vim.git

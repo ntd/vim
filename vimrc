@@ -6,7 +6,6 @@ set dir=~/tmp/vim		" Directory for temporary files
 			
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()		" Enable pathogen 'package manager'
-Helptags			" I like to get crazy...
 
 if has("gui_running")
     set cursorline		" Highlight the current line
