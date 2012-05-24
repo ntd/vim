@@ -12,8 +12,10 @@ if has("gui_running")
     set cursorline		" Highlight the current line
     set guifont=Terminus\ 15	" Terminus font must be installed
     set guioptions=aegit
+    set mouse=a
 else
     set t_ti= t_te=		" Avoid restoring screen at end of session
+    set mouse=			" Let copy&paste with mouse work on SSH
 endif
 
 set notimeout			" Don't timeout on mappings
@@ -21,7 +23,6 @@ set ttimeout			" Do timeout on terminal key codes
 set timeoutlen=100		" Timeout after 100 msec
 let g:proj_flags="mstvcg"	" 'Project' flags
 set helplang=en
-set mouse=a
 
 colorscheme xoria256
 let &termencoding=&encoding
