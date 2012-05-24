@@ -3,7 +3,7 @@ let s:cpo_save=&cpo
 set cpo&vim
 
 set dir=~/tmp/vim
-colorscheme wombat
+colorscheme xoria256
 
 " Encoding default to utf-8
 let &termencoding=&encoding
