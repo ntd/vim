@@ -15,4 +15,6 @@ runtime! syntax/gtk.vim
 let c_hi_identifiers = 'all'
 runtime! syntax/clibs/glibc.vim
 
+map <F8> :exe GnomeDoc()<CR>
+
 set expandtab

@@ -22,3 +22,6 @@
 [submodule "bundle/clibs.vim"]
 	path = bundle/clibs.vim
 	url = https://github.com/vim-scripts/clibs.vim.git
+[submodule "bundle/gnome-doc.vim"]
+	path = bundle/gnome-doc.vim
+	url = https://github.com/vim-scripts/gnome-doc.vim.git
