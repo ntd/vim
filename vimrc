@@ -2,7 +2,7 @@ if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
 
-set dir=~/tmp/vim		" Directory for temporary files
+set dir=/tmp			" Directory for temporary files
 			
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()		" Enable pathogen 'package manager'
