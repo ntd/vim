@@ -1,33 +1,33 @@
 [submodule "bundle/vimtodo"]
 	path = bundle/vimtodo
-	url = https://github.com/mivok/vimtodo.git
+	url = git://github.com/mivok/vimtodo.git
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
+	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/xoria256"]
 	path = bundle/xoria256
-	url = https://github.com/vim-scripts/xoria256.vim.git
+	url = git://github.com/vim-scripts/xoria256.vim.git
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
-	url = https://github.com/tsaleh/vim-align.git
+	url = git://github.com/tsaleh/vim-align.git
 [submodule "bundle/vim-project"]
 	path = bundle/vim-project
-	url = https://github.com/shemerey/vim-project.git
+	url = git://github.com/shemerey/vim-project.git
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
-	url = https://github.com/cypok/vim-ledger.git
+	url = git://github.com/cypok/vim-ledger.git
 [submodule "bundle/gtk-vim-syntax"]
 	path = bundle/gtk-vim-syntax
-	url = https://github.com/vim-scripts/gtk-vim-syntax.git
+	url = git://github.com/vim-scripts/gtk-vim-syntax.git
 [submodule "bundle/clibs.vim"]
 	path = bundle/clibs.vim
-	url = https://github.com/vim-scripts/clibs.vim.git
+	url = git://github.com/vim-scripts/clibs.vim.git
 [submodule "bundle/gnome-doc.vim"]
 	path = bundle/gnome-doc.vim
-	url = https://github.com/vim-scripts/gnome-doc.vim.git
+	url = git://github.com/vim-scripts/gnome-doc.vim.git
 [submodule "bundle/PHP-Indenting-for-VIm.git"]
 	path = bundle/PHP-Indenting-for-VIm.git
-	url = https://github.com/2072/PHP-Indenting-for-VIm.git
+	url = git://github.com/2072/PHP-Indenting-for-VIm.git
 [submodule "bundle/matchit.zip"]
 	path = bundle/matchit.zip
 	url = git://github.com/vim-scripts/matchit.zip.git
