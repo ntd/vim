@@ -23,7 +23,7 @@ set timeoutlen=100		" Timeout after 100 msec
 let g:proj_flags="mstvcg"	" 'Project' flags
 set helplang=en
 
-colorscheme xoria256
+colorscheme wombat256
 let &termencoding=&encoding
 set encoding=utf-8
 
