@@ -7,16 +7,10 @@ set dir=/tmp                    " Directory for temporary files
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()          " Enable pathogen 'package manager'
 
-if has("gui_running")
-    set cursorline              " Highlight the current line
-    set guifont=Terminus\ 15    " Terminus font must be installed
-    set guioptions=aegit
-    set mouse=a
-else
-    set t_ti= t_te=             " Avoid restoring screen at end of session
-    set mouse=                  " Let copy&paste with mouse work on SSH
-endif
+set t_ti= t_te=                 " Avoid restoring screen at end of session
+set mouse=                      " Let copy&paste with mouse work on SSH
 
+set cursorline                  " Highlight the current line
 set modeline
 set notimeout                   " Don't timeout on mappings
 set ttimeout                    " Do timeout on terminal key codes
