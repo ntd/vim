@@ -15,7 +15,10 @@ set modeline
 set notimeout                   " Don't timeout on mappings
 set ttimeout                    " Do timeout on terminal key codes
 set timeoutlen=100              " Timeout after 100 msec
-let g:proj_flags="mstvcg"       " 'Project' flags
+set splitright                  " Predilige vertical split on the right
+let g:proj_flags='mstvcg'       " 'Project' flags
+let g:proj_file='.config/vimproject'
+let g:proj_split='vs'           " Split vertically
 set helplang=en
 
 colorscheme wombat256
