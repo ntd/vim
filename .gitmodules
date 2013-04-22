@@ -9,7 +9,7 @@
 	url = git://github.com/tsaleh/vim-align.git
 [submodule "bundle/vim-project"]
 	path = bundle/vim-project
-	url = git://github.com/shemerey/vim-project.git
+	url = git://github.com/ntd/vim-project.git
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
 	url = git://github.com/cypok/vim-ledger.git
