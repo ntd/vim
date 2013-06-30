@@ -30,6 +30,7 @@ set list
 set showmode
 set showcmd
 set showmatch
+set nonumber
 set ruler
 set laststatus=2
 
