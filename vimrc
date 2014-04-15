@@ -44,8 +44,10 @@ set tabstop=8
 set shiftwidth=4
 set softtabstop=4
 
+if version >= 730
+    set colorcolumn=72
+endif
 set wrap
-set colorcolumn=72
 set textwidth=72
 set hidden
 set backspace=indent,eol,start
