@@ -10,6 +10,12 @@ call pathogen#infect()          " Enable pathogen 'package manager'
 set t_ti= t_te=                 " Avoid restoring screen at end of session
 set mouse=                      " Let copy&paste with mouse work on SSH
 
+                                " Custom bindings for Vimux
+map <Leader>vp :VimuxPromptCommand<CR>
+map <Leader>vl :VimuxRunLastCommand<CR>
+map <Leader>vi :VimuxInspectRunner<CR>
+map <Leader>vx :VimuxInterruptRunner<CR>
+
 set cursorline                  " Highlight the current line
 set modeline
 set notimeout                   " Don't timeout on mappings
