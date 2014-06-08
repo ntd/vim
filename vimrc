@@ -28,6 +28,7 @@ let g:proj_split='vs'           " Split vertically
 set helplang=en
 
 colorscheme wombat256
+set background=dark
 let &termencoding=&encoding
 set encoding=utf-8
 
