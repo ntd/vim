@@ -16,7 +16,6 @@ map <Leader>vl :VimuxRunLastCommand<CR>
 map <Leader>vi :VimuxInspectRunner<CR>
 map <Leader>vx :VimuxInterruptRunner<CR>
 
-set cursorline                  " Highlight the current line
 set modeline
 set notimeout                   " Don't timeout on mappings
 set ttimeout                    " Do timeout on terminal key codes
@@ -27,8 +26,12 @@ let g:proj_file='.config/vimproject'
 let g:proj_split='vs'           " Split vertically
 set helplang=en
 
+if has("gui_running") || &t_Co >= 88
+    set cursorline              " Highlight the current line
+endif
 colorscheme wombat256
 set background=dark
+
 let &termencoding=&encoding
 set encoding=utf-8
 
